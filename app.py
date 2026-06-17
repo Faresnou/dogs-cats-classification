@@ -38,7 +38,7 @@ html, body, [class*="css"] {
 #MainMenu, header, footer {visibility: hidden;}
 
 /* Hero */
-.hero-wrap { text-align: center; padding: 1.4rem 0 0.6rem 0; }
+.hero-wrap { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.4rem 0 0.6rem 0; }
 .hero-eyebrow {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.96rem;
